@@ -18,6 +18,21 @@
   <!-- Theme CSS -->
   <link href="css/freelancer.min.css" rel="stylesheet">
 
+	<style>
+	.IMGcontainer {
+	  position: relative;
+	  text-align: center;
+	  color: white;
+	}
+
+	.centered {
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%, -50%);
+	}
+	</style>
+
 </head>
 
 <body id="page-top">
@@ -39,6 +54,12 @@
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">O nas</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#regulations">Regulamin</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#opinion">Opinie</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Kontakt</a>
           </li>
         </ul>
@@ -49,7 +70,10 @@
   <!-- Masthead -->
   <header class="masthead bg-primary text-white text-center">
 
-	<img style="width:100%;" src="img/krk.jpeg" alt=""></a>
+	<div class="IMGcontainer">
+	  <img style="width:100%;" src="img/krk.jpeg" alt=""></a>
+	  <div class="centered"><h1>Otwórz się  na przygodę i podróżuj wraz z nami...</h1></div>
+	</div>
 
   </header>
 
@@ -108,6 +132,29 @@
           </div>
         </div>
  
+         <!-- Portfolio Item 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-2x">Wycieczki integracyjne</i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/brenna.jpg" alt="">
+          </div>
+        </div>
+
+        <!-- Portfolio Item 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <i class="fas fa-3x">Obozy sportowe</i>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/brenna.jpg" alt="">
+          </div>
+        </div>
 
       </div>
       <!-- /.row -->
@@ -137,11 +184,68 @@
           <p class="lead text-center">
          	Odkrywaj świat z Biurem Turystycznym 3TourSmile.</br></br>
 			Doświadczaj, poznawaj, zachwycaj się urodą świata, dotykaj nieznanych lądów, rozsmakuj się w tym, co niepowtarzalne, zachowaj w pamięci na zawsze…</br></br>
+
+Nasza firma organizuje wycieczki edukacyjne w ścisłej współpracy z kontrahentem, w celu zapewnienia jak najlepszego doświadczenia naszym klientom. Gwarantujemy Państwu wybór opcji, która będzie najlepiej dostosowana do Waszego budżetu i oczekiwań. Podziel się z nami Twoim pomysłem, a my przygotujemy wycieczkę, dopasowaną do potrzeb określonej grupy wiekowej.</br></br>
+
 			Zapraszamy</br></br>
 			3TourSmile</p>
         </div>
       </div>
 
+
+    </div>
+  </section>
+
+        <!-- Regulations Section -->
+  <section class="page-section" id="regulations">
+    <div class="container">
+
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Regulamin</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- About Section Content -->
+      <div class="row">
+        <div>
+          <p class="lead text-center">
+         	Regulamin tutaj
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+    <!-- Opinion Section -->
+  <section class="page-section bg-primary text-white mb-0" id="opinion">
+    <div class="container">
+
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-white">Opinie</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- About Section Content -->
+      <div class="row">
+        <div>
+          <p class="lead text-center">
+         	Opinie tutaj
+        </div>
+      </div>
 
     </div>
   </section>
@@ -215,8 +319,10 @@
         <!-- Footer Location -->
         <div class="col-lg-6 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Siedziba</h4>
-          <p class="lead mb-0">2215 John Daniel Drive
-            <br>Clark, MO 65243</p>
+          <p class="lead mb-0">Wiejska 13
+            <br>43-436 Górki Wielkie
+            <br>Polska
+        </p>
         </div>
 
         <!-- Footer Social Icons -->
@@ -297,9 +403,10 @@
 						<li>spektakl w Teatrze Starym / Teatrze Stu</li>
 						<li>wycieczka kulinarna – tradycyjne polskie smaki-degustacja</li>
 					</ul>
-					</br></br>
-					<b>Podziel się z nami Twoim pomysłem, a my dostosujemy wycieczkę do potrzeb określonej grupy wiekowej. Napisz do nas ,a my wyślemy Ci dokładny plan Twojej wycieczki wraz z cennikiem.</b>
-				</p></br></br>
+				</p>
+				<p><b>
+					Napisz do nas, a my dostosujemy wycieczkę do Twoich oczekiwań oraz potrzeb określonej grupy wiekowej. Po konsultacji z nami wyślemy Ci dokładny plan Twojej wycieczki wraz z wycena.
+				</b></p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Zamknij okno
@@ -351,9 +458,10 @@
 						<li>Spływ Przełęczą Dunajca tratwami w towarzystwie górali, ognisko</li>  
 						<li>Aquapark –Termy Bania lub Szaflary, Białka Tatrzańska</li>  
 					</ul>
-					</br></br>
-					<b>Podziel się z nami Twoim pomysłem, a my dostosujemy wycieczkę do potrzeb określonej grupy wiekowej. Napisz do nas ,a my wyślemy Ci dokładny plan Twojej wycieczki wraz z cennikiem.</b>
-                </p></br></br>
+                </p>
+                <p><b>
+					Napisz do nas, a my dostosujemy wycieczkę do Twoich oczekiwań oraz potrzeb określonej grupy wiekowej. Po konsultacji z nami wyślemy Ci dokładny plan Twojej wycieczki wraz z wycena.
+				</b></p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Zamknij okno
@@ -404,9 +512,10 @@
 						<li>Studio Filmów Rysunkowych- warsztaty teatralne.</li>
 						<li>Teatr Lalek Banialuka – warsztaty teatralne w jednym z najstarszych teatrów lalek w Polsce i jednym z najbardziej znanych w kraju i na świecie</li>
 					</ul>
-					</br></br>
-					<b>Podziel się z nami Twoim pomysłem, a my dostosujemy wycieczkę do potrzeb określonej grupy wiekowej. Napisz do nas ,a my wyślemy Ci dokładny plan Twojej wycieczki wraz z cennikiem.</b>
-				</p></br></br>
+				</p>
+				<p><b>
+					Napisz do nas, a my dostosujemy wycieczkę do Twoich oczekiwań oraz potrzeb określonej grupy wiekowej. Po konsultacji z nami wyślemy Ci dokładny plan Twojej wycieczki wraz z wycena.
+				</b></p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   CZamknij okno
@@ -433,7 +542,7 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Wycieczki integracyjne dla nauczycieli, kadry szkól polonijnych, pracowników firm</h2>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
@@ -445,7 +554,11 @@
                 <!-- Portfolio Modal - Image -->
                 <img class="img-fluid rounded mb-5" src="img/portfolio/game.png" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-5">Przygotowane przez nas programy wycieczek firmowych łączą elementy integracji z wypoczynkiem, zabawą i poznawaniem przepięknych zakątków Polski. Nasze propozycje to między innymi: Kraków, Warszawa, Zakopane, Wrocław i Karkonosze, Gdańsk, Sandomierz i Kazimierz. </br>
+				</p>
+				<p><b>
+					Napisz do nas, a my dostosujemy wycieczkę do Twoich oczekiwań oraz potrzeb określonej grupy wiekowej. Po konsultacji z nami wyślemy Ci dokładny plan Twojej wycieczki wraz z wycena.
+				</b></p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Zamknij okno
@@ -472,7 +585,7 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Obozy treningowe dla dorosłych</h2>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
@@ -484,7 +597,16 @@
                 <!-- Portfolio Modal - Image -->
                 <img class="img-fluid rounded mb-5" src="img/portfolio/safe.png" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <p class="mb-5">Już od lat z dużym powodzeniem organizujemy  obozy biegowo-sportowe dla dorosłych, które maja na celu podwyższenie sprawności fizycznej, poprawę kondycji zdrowotnej. Na naszych obozach oprócz codziennych treningów prowadzonych przez wykwalifikowanych profesjonalistów, oferujemy porady dietetyczne, zabiegi relaksacyjne oraz dobra zabawę. Istnieje dodatkowo  możliwość skorzystania z indywidualnych treningów prowadzonych przez wykwalifikowanych trenerów.</br></br>
+				Jeśli interesują Cię biegi, półmaratony, maratony, triatlony dołącz do nas!</br></br>
+				Obóz biegowo-sportowy 2020</br>
+				Miejsce: Bielsko-Biała, Polska</br>
+				Termin: kwiecień 2020</br>
+				Ramowy program:
+				</p>
+				<p><b>
+					Napisz do nas, a my dostosujemy wycieczkę do Twoich oczekiwań oraz potrzeb określonej grupy wiekowej. Po konsultacji z nami wyślemy Ci dokładny plan Twojej wycieczki wraz z wycena.
+				</b></p>
                 <button class="btn btn-primary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Zamknij okno
